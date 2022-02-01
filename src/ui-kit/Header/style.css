@@ -1,0 +1,74 @@
+  .App{
+    overflow: hidden;
+  }
+  .App-header {
+    background: #FFF;
+  }
+  .mh-logo {
+    margin: 0 0 -10px;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .main-nav {
+    width: 90%;
+  }
+  .main-nav a {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #343534;
+    text-decoration: none;
+  }
+  .main-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .center {
+    margin-top: 4em;
+    text-align: center;
+  }
+  .center a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #F34A4E;
+    border-bottom: 1px solid #F34A4E;
+    transition: all .275s;
+  }
+  .center a:hover,
+  .center a:focus {
+    opacity: 0.8;
+    padding-bottom: 2px;
+    border-bottom-color: rgba(243, 74, 95, .5);
+  }
+  
+  .container {
+    border-bottom: 1px solid linear(to-l, #7928CA,#FF0080);
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .App-header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .main-nav ul {
+    margin: 1em 0 .5em;
+  }
+  .main-nav li {
+    display: inline;
+  }
+  .main-nav a {
+    display: inline-block;
+    padding: .5em 1.5em;
+  }
+  
+  @media (min-width:960px) {
+    .App-header .container {
+      justify-content: flex-start;
+    }
+  }
