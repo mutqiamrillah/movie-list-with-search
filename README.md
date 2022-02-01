@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can check the result at [Amril Movie List](https://amril-movie-list.netlify.app/).
 
 ## Available Scripts
 
